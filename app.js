@@ -16,4 +16,4 @@ function foo(a, b, ...rest){
 }
 
 
-document.write(foo(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
+document.write(`<h1>${foo(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)}<h1>`);
